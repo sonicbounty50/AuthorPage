@@ -200,6 +200,9 @@
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = J7QW594JK3;
 						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
 								enabled = 1;
 							};
