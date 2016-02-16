@@ -10,8 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    
+    @IBOutlet var myWebView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let myURL = NSURL(string: "http://tylervollbooks.com/forum");
+        let myURLRequest = NSURLRequest(URL: myURL!);
+        myWebView.loadRequest(myURLRequest);
         // Do any additional setup after loading the view, typically from a nib.
     }
 
