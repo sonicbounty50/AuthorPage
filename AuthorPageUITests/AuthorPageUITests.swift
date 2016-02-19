@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Tyler_Voll_BooksUITests: XCTestCase {
+class AuthorPageUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

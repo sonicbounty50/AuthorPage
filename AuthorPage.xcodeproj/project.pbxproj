@@ -13,8 +13,10 @@
 		35049DD31C68359800D7A86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35049DD11C68359800D7A86D /* Main.storyboard */; };
 		35049DD51C68359800D7A86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35049DD41C68359800D7A86D /* Assets.xcassets */; };
 		35049DD81C68359800D7A86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35049DD61C68359800D7A86D /* LaunchScreen.storyboard */; };
-		35049DE31C68359800D7A86D /* Tyler_Voll_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35049DE21C68359800D7A86D /* Tyler_Voll_BooksTests.swift */; };
-		35049DEE1C68359900D7A86D /* Tyler_Voll_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35049DED1C68359900D7A86D /* Tyler_Voll_BooksUITests.swift */; };
+		35049DE31C68359800D7A86D /* AuthorPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35049DE21C68359800D7A86D /* AuthorPageTests.swift */; };
+		35049DEE1C68359900D7A86D /* AuthorPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35049DED1C68359900D7A86D /* AuthorPageUITests.swift */; };
+		3509A2631C76865E0096C4BD /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3509A2621C76865E0096C4BD /* AboutMeViewController.swift */; };
+		35D579C91C73FDBE00090AD2 /* LearnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D579C81C73FDBE00090AD2 /* LearnMoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		35049DC81C68359800D7A86D /* Tyler Voll Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tyler Voll Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35049DC81C68359800D7A86D /* AuthorPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35049DCB1C68359800D7A86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35049DCD1C68359800D7A86D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		35049DCF1C68359800D7A86D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -43,13 +45,15 @@
 		35049DD41C68359800D7A86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35049DD71C68359800D7A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35049DD91C68359800D7A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35049DDE1C68359800D7A86D /* Tyler Voll BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tyler Voll BooksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35049DE21C68359800D7A86D /* Tyler_Voll_BooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tyler_Voll_BooksTests.swift; sourceTree = "<group>"; };
+		35049DDE1C68359800D7A86D /* AuthorPage.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorPage.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35049DE21C68359800D7A86D /* AuthorPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorPageTests.swift; sourceTree = "<group>"; };
 		35049DE41C68359800D7A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35049DE91C68359900D7A86D /* Tyler Voll BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tyler Voll BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35049DED1C68359900D7A86D /* Tyler_Voll_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tyler_Voll_BooksUITests.swift; sourceTree = "<group>"; };
+		35049DE91C68359900D7A86D /* AuthorPage.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorPage.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35049DED1C68359900D7A86D /* AuthorPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorPageUITests.swift; sourceTree = "<group>"; };
 		35049DEF1C68359900D7A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		354D8D9E1C72988800DE7F2D /* Tyler Voll Books.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tyler Voll Books.entitlements"; sourceTree = "<group>"; };
+		3509A2621C76865E0096C4BD /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		354D8D9E1C72988800DE7F2D /* AuthorPage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AuthorPage.entitlements; sourceTree = "<group>"; };
+		35D579C81C73FDBE00090AD2 /* LearnMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,9 @@
 		35049DBF1C68359800D7A86D = {
 			isa = PBXGroup;
 			children = (
-				35049DCA1C68359800D7A86D /* Tyler Voll Books */,
-				35049DE11C68359800D7A86D /* Tyler Voll BooksTests */,
-				35049DEC1C68359900D7A86D /* Tyler Voll BooksUITests */,
+				35049DCA1C68359800D7A86D /* AuthorPage */,
+				35049DE11C68359800D7A86D /* AuthorPageTests */,
+				35049DEC1C68359900D7A86D /* AuthorPageUITests */,
 				35049DC91C68359800D7A86D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,52 +94,54 @@
 		35049DC91C68359800D7A86D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35049DC81C68359800D7A86D /* Tyler Voll Books.app */,
-				35049DDE1C68359800D7A86D /* Tyler Voll BooksTests.xctest */,
-				35049DE91C68359900D7A86D /* Tyler Voll BooksUITests.xctest */,
+				35049DC81C68359800D7A86D /* AuthorPage.app */,
+				35049DDE1C68359800D7A86D /* AuthorPage.xctest */,
+				35049DE91C68359900D7A86D /* AuthorPage.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35049DCA1C68359800D7A86D /* Tyler Voll Books */ = {
+		35049DCA1C68359800D7A86D /* AuthorPage */ = {
 			isa = PBXGroup;
 			children = (
-				354D8D9E1C72988800DE7F2D /* Tyler Voll Books.entitlements */,
+				354D8D9E1C72988800DE7F2D /* AuthorPage.entitlements */,
 				35049DCB1C68359800D7A86D /* AppDelegate.swift */,
 				35049DCD1C68359800D7A86D /* FirstViewController.swift */,
 				35049DCF1C68359800D7A86D /* SecondViewController.swift */,
+				35D579C81C73FDBE00090AD2 /* LearnMoreViewController.swift */,
+				3509A2621C76865E0096C4BD /* AboutMeViewController.swift */,
 				35049DD11C68359800D7A86D /* Main.storyboard */,
 				35049DD41C68359800D7A86D /* Assets.xcassets */,
 				35049DD61C68359800D7A86D /* LaunchScreen.storyboard */,
 				35049DD91C68359800D7A86D /* Info.plist */,
 			);
-			path = "Tyler Voll Books";
+			path = AuthorPage;
 			sourceTree = "<group>";
 		};
-		35049DE11C68359800D7A86D /* Tyler Voll BooksTests */ = {
+		35049DE11C68359800D7A86D /* AuthorPageTests */ = {
 			isa = PBXGroup;
 			children = (
-				35049DE21C68359800D7A86D /* Tyler_Voll_BooksTests.swift */,
+				35049DE21C68359800D7A86D /* AuthorPageTests.swift */,
 				35049DE41C68359800D7A86D /* Info.plist */,
 			);
-			path = "Tyler Voll BooksTests";
+			path = AuthorPageTests;
 			sourceTree = "<group>";
 		};
-		35049DEC1C68359900D7A86D /* Tyler Voll BooksUITests */ = {
+		35049DEC1C68359900D7A86D /* AuthorPageUITests */ = {
 			isa = PBXGroup;
 			children = (
-				35049DED1C68359900D7A86D /* Tyler_Voll_BooksUITests.swift */,
+				35049DED1C68359900D7A86D /* AuthorPageUITests.swift */,
 				35049DEF1C68359900D7A86D /* Info.plist */,
 			);
-			path = "Tyler Voll BooksUITests";
+			path = AuthorPageUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35049DC71C68359800D7A86D /* Tyler Voll Books */ = {
+		35049DC71C68359800D7A86D /* AuthorPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35049DF21C68359900D7A86D /* Build configuration list for PBXNativeTarget "Tyler Voll Books" */;
+			buildConfigurationList = 35049DF21C68359900D7A86D /* Build configuration list for PBXNativeTarget "AuthorPage" */;
 			buildPhases = (
 				35049DC41C68359800D7A86D /* Sources */,
 				35049DC51C68359800D7A86D /* Frameworks */,
@@ -145,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = "Tyler Voll Books";
+			name = AuthorPage;
 			productName = "Tyler Voll Books";
-			productReference = 35049DC81C68359800D7A86D /* Tyler Voll Books.app */;
+			productReference = 35049DC81C68359800D7A86D /* AuthorPage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		35049DDD1C68359800D7A86D /* Tyler Voll BooksTests */ = {
+		35049DDD1C68359800D7A86D /* AuthorPageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35049DF51C68359900D7A86D /* Build configuration list for PBXNativeTarget "Tyler Voll BooksTests" */;
+			buildConfigurationList = 35049DF51C68359900D7A86D /* Build configuration list for PBXNativeTarget "AuthorPageTests" */;
 			buildPhases = (
 				35049DDA1C68359800D7A86D /* Sources */,
 				35049DDB1C68359800D7A86D /* Frameworks */,
@@ -163,14 +169,14 @@
 			dependencies = (
 				35049DE01C68359800D7A86D /* PBXTargetDependency */,
 			);
-			name = "Tyler Voll BooksTests";
+			name = AuthorPageTests;
 			productName = "Tyler Voll BooksTests";
-			productReference = 35049DDE1C68359800D7A86D /* Tyler Voll BooksTests.xctest */;
+			productReference = 35049DDE1C68359800D7A86D /* AuthorPage.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		35049DE81C68359900D7A86D /* Tyler Voll BooksUITests */ = {
+		35049DE81C68359900D7A86D /* AuthorPageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35049DF81C68359900D7A86D /* Build configuration list for PBXNativeTarget "Tyler Voll BooksUITests" */;
+			buildConfigurationList = 35049DF81C68359900D7A86D /* Build configuration list for PBXNativeTarget "AuthorPageUITests" */;
 			buildPhases = (
 				35049DE51C68359900D7A86D /* Sources */,
 				35049DE61C68359900D7A86D /* Frameworks */,
@@ -181,9 +187,9 @@
 			dependencies = (
 				35049DEB1C68359900D7A86D /* PBXTargetDependency */,
 			);
-			name = "Tyler Voll BooksUITests";
+			name = AuthorPageUITests;
 			productName = "Tyler Voll BooksUITests";
-			productReference = 35049DE91C68359900D7A86D /* Tyler Voll BooksUITests.xctest */;
+			productReference = 35049DE91C68359900D7A86D /* AuthorPage.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +204,6 @@
 				TargetAttributes = {
 					35049DC71C68359800D7A86D = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = J7QW594JK3;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
 								enabled = 1;
@@ -218,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 35049DC31C68359800D7A86D /* Build configuration list for PBXProject "Tyler Voll Books" */;
+			buildConfigurationList = 35049DC31C68359800D7A86D /* Build configuration list for PBXProject "AuthorPage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35049DC71C68359800D7A86D /* Tyler Voll Books */,
-				35049DDD1C68359800D7A86D /* Tyler Voll BooksTests */,
-				35049DE81C68359900D7A86D /* Tyler Voll BooksUITests */,
+				35049DC71C68359800D7A86D /* AuthorPage */,
+				35049DDD1C68359800D7A86D /* AuthorPageTests */,
+				35049DE81C68359900D7A86D /* AuthorPageUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D579C91C73FDBE00090AD2 /* LearnMoreViewController.swift in Sources */,
+				3509A2631C76865E0096C4BD /* AboutMeViewController.swift in Sources */,
 				35049DD01C68359800D7A86D /* SecondViewController.swift in Sources */,
 				35049DCC1C68359800D7A86D /* AppDelegate.swift in Sources */,
 				35049DCE1C68359800D7A86D /* FirstViewController.swift in Sources */,
@@ -280,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35049DE31C68359800D7A86D /* Tyler_Voll_BooksTests.swift in Sources */,
+				35049DE31C68359800D7A86D /* AuthorPageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35049DEE1C68359900D7A86D /* Tyler_Voll_BooksUITests.swift in Sources */,
+				35049DEE1C68359900D7A86D /* AuthorPageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		35049DE01C68359800D7A86D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35049DC71C68359800D7A86D /* Tyler Voll Books */;
+			target = 35049DC71C68359800D7A86D /* AuthorPage */;
 			targetProxy = 35049DDF1C68359800D7A86D /* PBXContainerItemProxy */;
 		};
 		35049DEB1C68359900D7A86D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35049DC71C68359800D7A86D /* Tyler Voll Books */;
+			target = 35049DC71C68359800D7A86D /* AuthorPage */;
 			targetProxy = 35049DEA1C68359900D7A86D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,10 +424,10 @@
 				CODE_SIGN_ENTITLEMENTS = "Tyler Voll Books/Tyler Voll Books.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Tyler Voll Books/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AuthorPage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TVB.Tyler-Voll-Books";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = AuthorPage;
+				PRODUCT_NAME = AuthorPage;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -432,10 +439,10 @@
 				CODE_SIGN_ENTITLEMENTS = "Tyler Voll Books/Tyler Voll Books.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Tyler Voll Books/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AuthorPage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TVB.Tyler-Voll-Books";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = AuthorPage;
+				PRODUCT_NAME = AuthorPage;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -447,8 +454,8 @@
 				INFOPLIST_FILE = "Tyler Voll BooksTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TVB.Tyler-Voll-BooksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tyler Voll Books.app/Tyler Voll Books";
+				PRODUCT_NAME = AuthorPage;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthorPage.app/AuthorPage";
 			};
 			name = Debug;
 		};
@@ -459,8 +466,8 @@
 				INFOPLIST_FILE = "Tyler Voll BooksTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TVB.Tyler-Voll-BooksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tyler Voll Books.app/Tyler Voll Books";
+				PRODUCT_NAME = AuthorPage;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthorPage.app/AuthorPage";
 			};
 			name = Release;
 		};
@@ -470,7 +477,7 @@
 				INFOPLIST_FILE = "Tyler Voll BooksUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TVB.Tyler-Voll-BooksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AuthorPage;
 				TEST_TARGET_NAME = "Tyler Voll Books";
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +489,7 @@
 				INFOPLIST_FILE = "Tyler Voll BooksUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TVB.Tyler-Voll-BooksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AuthorPage;
 				TEST_TARGET_NAME = "Tyler Voll Books";
 				USES_XCTRUNNER = YES;
 			};
@@ -491,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35049DC31C68359800D7A86D /* Build configuration list for PBXProject "Tyler Voll Books" */ = {
+		35049DC31C68359800D7A86D /* Build configuration list for PBXProject "AuthorPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35049DF01C68359900D7A86D /* Debug */,
@@ -500,7 +507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35049DF21C68359900D7A86D /* Build configuration list for PBXNativeTarget "Tyler Voll Books" */ = {
+		35049DF21C68359900D7A86D /* Build configuration list for PBXNativeTarget "AuthorPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35049DF31C68359900D7A86D /* Debug */,
@@ -509,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35049DF51C68359900D7A86D /* Build configuration list for PBXNativeTarget "Tyler Voll BooksTests" */ = {
+		35049DF51C68359900D7A86D /* Build configuration list for PBXNativeTarget "AuthorPageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35049DF61C68359900D7A86D /* Debug */,
@@ -518,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35049DF81C68359900D7A86D /* Build configuration list for PBXNativeTarget "Tyler Voll BooksUITests" */ = {
+		35049DF81C68359900D7A86D /* Build configuration list for PBXNativeTarget "AuthorPageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35049DF91C68359900D7A86D /* Debug */,

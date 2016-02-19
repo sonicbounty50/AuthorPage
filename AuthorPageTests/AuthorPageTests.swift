@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import Tyler_Voll_Books
+@testable import AuthorPage
 
-class Tyler_Voll_BooksTests: XCTestCase {
+class AuthorPageTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
